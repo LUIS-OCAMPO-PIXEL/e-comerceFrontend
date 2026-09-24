@@ -16,6 +16,8 @@ function App() {
       <BrowserRouter>
         <Navbar />
         <Routes>
+
+          
           <Route path="/" element={<Home />} />
           <Route path="/producto/:id" element={<ProductoDetalle />} />
           <Route path="/carrito" element={<Carrito />} />
